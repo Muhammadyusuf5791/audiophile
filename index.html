@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header class="w-full h-[100px] bg-black text-white flex items-center justify-between
+     pl-[100px] pr-[100px] border-b border-gray-800">
+        <div class="logo">
+            <h1 class="text-4xl font-bold">audiophile</h1>
+        </div>
+
+        <nav>
+            <ul class="flex gap-7 uppercase">
+                <li class="hover:text-orange-400"><a href="#">Home</a></li>
+                <li class="hover:text-orange-400"><a href="#headphones">Headphones</a></li>
+                <li class="hover:text-orange-400"><a href="#speakers">Speakers</a></li>
+                <li class="hover:text-orange-400"><a href="#earphones">Earphones</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <i class="fa-solid fa-cart-shopping text-xl hover:text-orange-400 cursor-pointer"></i>
+        </div>
+    </header>
+
+    <div class="w-full h-[83vh] bg-black flex text-white items-center justify-between pl-[100px] pr-[100px]">
+        <div>
+            <h2 class="text-xl uppercase text-gray-500 tracking-[8px]">New Product</h2>
+            <h1 class="text-6xl font-bold pb-[30px] pt-[20px]">XX99 Mark II <br>Headphones</h1>
+            <p>Experience natural, lifelike audio and exceptional <br>build quality made for the passionate music <br>enthusiast.</p>
+            <button class="bg-orange-400 p-[5px] pl-[15px] pr-[15px] rounded-sm
+             font-[500] mt-5 hover:bg-white hover:text-orange-400">SEE PRODUCT</button>
+        </div>
+
+        <div>
+            <img src="assets/img1.png" alt="rasm" class="mb-10 w-[600px] h-[570px]">
+        </div>
+    </div>
 </body>
 </html>
