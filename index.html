@@ -6,76 +6,73 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!-- Header section -->
-    <header class="w-full h-[100px] bg-black text-white flex items-center justify-between
-     pl-[100px] pr-[100px] border-b border-gray-800">
+    <header>
         <div class="logo">
-            <h1 class="text-4xl font-bold">audiophile</h1>
+            <h1>audiophile</h1>
         </div>
 
         <nav>
-            <ul class="flex gap-7 uppercase">
-                <li class="hover:text-orange-400"><a href="#">Home</a></li>
-                <li class="hover:text-orange-400"><a href="#headphones">Headphones</a></li>
-                <li class="hover:text-orange-400"><a href="#speakers">Speakers</a></li>
-                <li class="hover:text-orange-400"><a href="#earphones">Earphones</a></li>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#headphones">Headphones</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#earphones">Earphones</a></li>
             </ul>
         </nav>
 
         <div>
-            <i class="fa-solid fa-cart-shopping text-xl hover:text-orange-400 cursor-pointer"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
         </div>
     </header>
 
     <!-- Container section -->
-    <div class="w-full h-[83vh] bg-black flex text-white items-center justify-between pl-[100px] pr-[100px]">
-        <div>
-            <h2 class="text-xl uppercase text-gray-500 tracking-[8px]">New Product</h2>
+    <div class="container">
+        <div class="left">
+            <h2>New Product</h2>
             <h1 class="text-6xl font-bold pb-[30px] pt-[20px]">XX99 Mark II <br>Headphones</h1>
             <p>Experience natural, lifelike audio and exceptional <br>build quality made for the passionate music <br>enthusiast.</p>
-            <button class="bg-orange-400 p-[5px] pl-[15px] pr-[15px] rounded-sm
-             font-[500] mt-5 hover:bg-white hover:text-orange-400">SEE PRODUCT</button>
+            <button>SEE PRODUCT</button>
         </div>
 
-        <div>
-            <img src="assets/img1.png" alt="rasm" class="mb-10 w-[600px] h-[570px]">
+        <div class="right">
+            <img src="assets/img1.png" alt="rasm">
         </div>
     </div>
 
     <!-- Cards section -->
-    <div class="w-full h-screen flex items-center justify-between pl-[100px] pr-[100px]">
-        <div class="w-[320px] h-[200px] bg-gray-300 rounded-lg flex justify-center items-end pb-[40px] relative">
-            <img src="assets/img2.png" alt="rasm" class="absolute -top-20 shadow-[0_20px_0_rgba(0,0,0,0.2)]">
+    <div class="cards">
+        <div class="card">
+            <img src="assets/img2.png" alt="rasm">
             <div>
-            <h1 class="text-2xl">HEADPHONES</h1>
-            <div class="flex items-center justify-center gap-2">
+            <h2>HEADPHONES</h2>
+            <div class="shop-icon">
                 <p>SHOP</p>
-                <img src="assets/icon1.png" alt="rasm" class="w-[10px] h-[15px]">
+                <img src="assets/icon1.png" alt="rasm">
             </div>
         </div>
         </div>
 
-        <div class="w-[320px] h-[200px] bg-gray-300 rounded-lg flex justify-center items-end pb-[40px] relative">
-            <img src="assets/img3.png" alt="rasm" class="absolute -top-20 shadow-[0_20px_0_rgba(0,0,0,0.2)]">
+        <div class="card">
+            <img src="assets/img3.png" alt="rasm">
             <div>
-            <h1 class="text-2xl">HEADPHONES</h1>
-            <div class="flex items-center justify-center gap-2">
+            <h2>SPEAKERS</h2>
+            <div class="shop-icon">
                 <p>SHOP</p>
-                <img src="assets/icon1.png" alt="rasm" class="w-[10px] h-[15px]">
+                <img src="assets/icon1.png" alt="rasm">
             </div>
         </div>
         </div>
 
-        <div class="w-[320px] h-[200px] bg-gray-300 rounded-lg flex justify-center items-end pb-[40px] relative">
-            <img src="assets/img4.png" alt="rasm" class="absolute -top-20 shadow-[0_20px_0_rgba(0,0,0,0.2)]">
+        <div class="card">
             <div>
-            <h1 class="text-2xl">HEADPHONES</h1>
-            <div class="flex items-center justify-center gap-2">
+            <img src="assets/img4.png" alt="rasm" class="card-img">
+            <h2>EARPHONES</h2>
+            <div class="shop-icon">
                 <p>SHOP</p>
-                <img src="assets/icon1.png" alt="rasm" class="w-[10px] h-[15px]">
+                <img src="assets/icon1.png" alt="rasm">
             </div>
         </div>
         </div>
