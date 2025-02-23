@@ -835,9 +835,94 @@ footer{
         transform: scale(0.9);
     }
 
+    .card-img{
+        position: absolute;
+        top: -70px;
+        left: 90px;
+        width: 110px;
+        height: 130px;
+    }
+
+    .card-img1{
+        position: absolute;
+        top: -70px;
+        left: 90px;
+    }
+
+    .card{
+        width: 290px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card{
+        width: 250px;
+        height: 150px;
+        padding-top: 80px;
+    }
+
     .cards{
-        transform: scale(1.2);
-        margin: 250px 0 120px 0;
+        margin: 350px 0 300px 0;
+    }
+
+    .card-img{
+        position: absolute;
+        top: -60px;
+        left: 90px;
+        width: 90px;
+        height: 110px;
+    }
+
+    .card-img1{
+        position: absolute;
+        top: -50px;
+        left: 80px;
+        width: 95px;
+        height: 100px;
+    }
+
+    .card h2{
+        font-size: 15px;
+    }
+
+    .shop-icon p{
+        font-size: 10px;
+    }
+
+    .shop-icon img{
+        width: 6px;
+        height: 10px;
+    }
+
+    .shop-icon{
+        gap: 5px;
+    }
+
+    .left3 img{
+        width: 480px;
+        height: 300px;
+    }
+
+    .banner, .left3{
+        padding: 0 20px;
+    }
+
+    .left4 h1{
+        font-size: 30px;
+    }
+
+    .left4 p{
+        font-size: 12px;
+    }
+
+    .right4 img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-me{
+        padding: 50px 0;
     }
 }
 
@@ -847,6 +932,15 @@ footer{
         padding: 0 5px;
         display: flex;
         justify-content: center;
+    }
+
+    
+    .left4 h1{
+        font-size: 23px;
+    }
+
+    .left4 p{
+        font-size: 10px;
     }
 
     .left h2{
@@ -860,6 +954,60 @@ footer{
     .right img{
         width: 450px;
         height: 450px;
+    }
+
+    .card-img{
+        position: absolute;
+        top: -60px;
+        left: 60px;
+        width: 70px;
+        height: 90px;
+    }
+
+    .card-img1{
+        position: absolute;
+        top: -35px;
+        left: 60px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .card{
+        width: 200px;
+        height: 130px;
+        padding-top: 60px;
+    }
+
+    .cards{
+        margin: 300px 0 250px 0;
+        padding: 20px;
+    }
+
+    .left1 img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .left3 img{
+        width: 430px;
+        height: 290px;
+    }
+
+    .right4 img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .left3 img{
+        width: 390px;
+        height: 270px;
+    }
+
+    .right4 img{
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -875,5 +1023,43 @@ footer{
     .right img{
         width: 400px;
         height: 400px;
+    }
+
+    .right1 h1{
+        font-size: 50px;
+    }
+
+    .card-img{
+        position: absolute;
+        top: -40px;
+        left: 60px;
+        width: 70px;
+        height: 80px;
+    }
+
+    .card-img1{
+        position: absolute;
+        top: -35px;
+        left: 60px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .cards{
+        padding: 0;
+        transform: scale(1.5);
+    }
+
+    .left3 img{
+        width: 340px;
+        height: 250px;
+    }
+
+    .left4 h1{
+        font-size: 22px;
+    }
+
+    .left4 p{
+        font-size: 8.5px;
     }
 }
