@@ -762,10 +762,34 @@ footer{
 
 @media (max-width: 1000px) {
     .container{
+        background-image: url(assets/img1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
         display: flex;
-        flex-direction: column;
-        height: auto;
-        padding-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left h2{
+        font-size: 30px;
+    }
+
+    .left h1{
+        font-size: 80px;
+    }
+    
+    .left p{
+        font-size: 23px;
+    }
+
+    .left button{
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+
+    .right img{
+        display: none;
     }
 
     .navbar{
@@ -854,6 +878,23 @@ footer{
     .card{
         width: 290px;
         height: 180px;
+    }
+
+    .left h2{
+        font-size: 20px;
+    }
+
+    .left h1{
+        font-size: 60px;
+    }
+    
+    .left p{
+        font-size: 15px;
+    }
+
+    .left button{
+        padding: 10px 20px;
+        font-size: 15px;
     }
 }
 
