@@ -765,10 +765,11 @@ footer{
         background-image: url(assets/img1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom;
+        background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 750px;
     }
 
     .left h2{
@@ -895,6 +896,10 @@ footer{
     .left button{
         padding: 10px 20px;
         font-size: 15px;
+    }
+
+    .container{
+        height: 500px;
     }
 }
 
