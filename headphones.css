@@ -143,16 +143,6 @@ header i:hover{
     visibility: hidden;
 }
 
-/* .right a{
-    color: white;
-    text-decoration: none;
-}
-
-.right a:hover{
-    color: #fa8510;
-    background-color: white ;
-} */
-
 .right a:hover{
     color: #fa8510;
     background-color: white;
@@ -245,18 +235,19 @@ header i:hover{
     visibility: hidden;
 }
 
-.left1 button{
+.left1 a{
     background-color: #fa8510;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 3px;
+    text-decoration: none;
     transition: color .3s linear, background-color .3s linear;
     animation: left1-button 1s linear forwards;
     visibility: hidden;
 }
 
-.left1 button:hover{
+.left1 a:hover{
     color: #fa8510;
     background-color: white;
     border: 2px dashed #fa8510;

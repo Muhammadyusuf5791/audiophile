@@ -1,0 +1,664 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    border-bottom: 1px solid #464646;
+}
+
+.logo{
+    animation: logo 1s ease forwards;
+    visibility: hidden;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+    animation: nav-ul 1s ease forwards;
+    visibility: hidden;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+nav a:hover{
+    color: #fa8510;
+}
+
+header i{
+    font-size: 20px;
+    transition: color 0.3s linear;
+    animation: header-i 1s linear forwards;
+    visibility: hidden;
+}
+
+header i:hover{
+    color: #fa8510;
+    cursor: pointer;
+}
+
+@keyframes logo {
+    0%{
+        transform: translateX(-300px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes nav-ul {
+    0%{
+        transform: translateY(-200px);
+    }
+
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes header-i {
+    0%{
+        transform: translateX(300px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+.container{
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.left h6{
+    color: gray;
+    font-size: 15px;
+    padding: 20px 0;
+    animation: left-h6 1s linear forwards;
+    visibility: hidden;
+}
+
+.right h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fa8510;
+    animation: right-h2 1s linear forwards;
+    visibility: hidden;
+}
+
+.right h1{
+    font-size: 50px;
+    padding: 20px 0;
+    animation: right-h1 1s linear forwards;
+    visibility: hidden;
+}
+
+.right p{
+    line-height: 22px;
+    padding-bottom: 20px;
+    animation: right-p 1s ease-in forwards;
+    visibility: hidden;
+}
+
+.right h4{
+    background-color: #fdf3e8;
+    padding: 8px 20px;
+    color: gray;
+    border-radius: 3px;
+}
+
+.right h4:hover{
+    cursor: pointer;
+}
+
+.right span{
+    color: black;
+    padding: 0 10px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    animation: right-button 1s linear forwards;
+    visibility: hidden;
+}
+
+.right button{
+    background-color: #fa8510;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: color .3s linear, background-color .3s linear;
+}
+
+.right button:hover{
+    color: #fa8510;
+    background-color: white;
+    border: 2px dashed #fa8510;
+    cursor: pointer;
+}
+
+.left img{
+    background-color: #fdf7f0;
+    padding: 0 60px;
+    animation: left-img 1s linear forwards;
+    visibility: hidden;
+}
+
+@keyframes left-img {
+    0%{
+        transform: translateX(-400px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes left-h6 {
+    0%{
+        transform: translateX(-400px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes right-h2 {
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes right-h1 {
+    0%{
+        transform: translateX(400px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes right-p {
+    0%{
+        transform: translateX(400px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes right-button {
+    0%{
+        transform: translateY(100px);
+    }
+
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+.texts{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 100px;
+}
+
+.left1{
+    animation: left1 1s linear forwards;
+    visibility: hidden;
+}
+
+.right1{
+    animation: right1 1s linear forwards;
+    visibility: hidden;
+}
+
+
+.left1 p{
+    line-height: 25px;
+}
+
+.left1 h1{
+    padding-bottom: 25px;
+}
+
+.right1 h1{
+    padding-bottom: 20px;
+}
+
+.right1 li{
+    padding: 7px;
+}
+
+.right1 span{
+    color: #fa8510;
+    padding-right: 15px;
+    font-weight: 700;
+}
+
+@keyframes left1 {
+    0%{
+        transform: translateX(-400px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes right1 {
+    0%{
+        transform: translateX(400px);
+    }
+
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+.images{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: images 1.5s linear forwards;
+    visibility: hidden;
+}
+
+.left2 img{
+    width: 350px;
+    height: 215px;
+    display: block;
+    margin: 20px;
+}
+
+.right2 img{
+    width: 500px;
+    height: 450px;
+}
+
+@keyframes images {
+    0%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.banners{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+    animation: banners 2s linear forwards;
+    visibility: hidden;
+}
+
+.banner{
+    display: flex;
+    gap: 40px;
+}
+
+.banner1 img{
+   background-color: #fdf3e8;
+   padding: 54px 70px;
+}
+
+.banner2 img{
+    background-color: #fdf3e8;
+    padding: 50px;
+ }
+
+ .banner3 img{
+    background-color: #fdf3e8;
+    padding: 62px 70px;
+ }
+
+ .banner1, .banner2, .banner3{
+    text-align: center;
+ }
+
+ .banner1 .banner2 .banner3, h2{
+    padding: 10px 0;
+ }
+
+ .banner1 .banner2 .banner3, button{
+    background-color: #fa8510;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: color .3s linear, background-color .3s linear;
+}
+
+.banner1 .banner2 .banner3, button:hover{
+    color: #fa8510;
+    background-color: white;
+    border: 2px dashed #fa8510;
+    cursor: pointer;
+}
+
+@keyframes banners {
+    0%{
+        transform: scale(0.5);
+    }
+
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.cards{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.card{
+    width: 330px;
+    height: 200px;
+    background-color: #fcf4e9;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    animation: card 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 1s;
+}
+
+.shop-icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.shop-icon p:hover{
+    color: #fa8510;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shop-icon img{
+    width: 12px;
+    height: 17px;
+}
+
+.card-img{
+    position: absolute;
+    top: -90px;
+    left: 100px;
+}
+
+.card-img1{
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+
+@keyframes card {
+    from{
+        transform: scale(0.5);
+    }
+
+    to{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+.about-me{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.right4 img{
+    width: 500px;
+    height: 550px;
+    animation: right4-img 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 2s;
+}
+
+.left4 span{
+    color: #fa7f03;
+}
+
+.left4 h1{
+    text-transform: uppercase;
+    font-size: 43px;
+    animation: left4-h1 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 2s;
+}
+
+.left4 p{
+    line-height: 25px;
+    padding-top: 20px;
+    animation: left4-p 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 2s;
+}
+
+@keyframes left4-h1 {
+    from{
+        transform: translateX(-400px);
+    }
+
+    to{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes left4-p {
+    from{
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes right4-img {
+    from{
+        transform: scale(0.5);
+    }
+
+    to{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.information h2{
+    font-size: 30px;
+    animation: footer-h2 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 3s;
+}
+
+.information p{
+    line-height: 25px;
+    color: gray;
+    padding: 20px 0 60px 0;
+    animation: footer-p 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 3s;
+}
+
+.information h4{
+    color: gray; 
+    animation: footer-h4 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 3s;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+    animation: footer-ul 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 3s;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+
+    transition: color .3s linear;
+}
+
+.nav-links a:hover{
+    color: #fa7f03;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    animation: footer-link 1s linear forwards;
+    visibility: hidden;
+    animation-delay: 3s;
+}
+
+.links i{
+    font-size: 25px;
+    padding: 0 5px;
+    margin: 120px 0 50px 0;
+    transition: color .3s linear;
+}
+
+.links i:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+@keyframes footer-h2 {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes footer-p {
+    from{
+        transform: scale(0.5);
+    }
+
+    to{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+@keyframes footer-h4 {
+    from{
+        transform: translateY(200px);
+    }
+
+    to{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes footer-ul {
+    from{
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes footer-link {
+    from{
+        transform: translateY(200px);
+    }
+
+    to{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
