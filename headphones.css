@@ -129,18 +129,31 @@ header i:hover{
     visibility: hidden;
 }
 
-.right button{
+
+
+.right a{
     background-color: #fa8510;
     color: white;
     border: none;
     padding: 10px 20px;
+    text-decoration: none;
     border-radius: 3px;
     transition: color .3s linear, background-color .3s linear;
     animation: right-button 1s linear forwards;
     visibility: hidden;
 }
 
-.right button:hover{
+/* .right a{
+    color: white;
+    text-decoration: none;
+}
+
+.right a:hover{
+    color: #fa8510;
+    background-color: white ;
+} */
+
+.right a:hover{
     color: #fa8510;
     background-color: white;
     border: 2px dashed #fa8510;
@@ -464,7 +477,7 @@ header i:hover{
     left: 100px;
 }
 
-@keyframes card {
+@keyframes card {       
     from{
         transform: scale(0.5);
     }
